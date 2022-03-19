@@ -49,7 +49,7 @@ const Projects = () => {
                 <a href='https://github.com/ravoluzen/header-dhillon' target='_blank.' className='m-12 ml-0 underline decoration-green-400'>source code</a>
             </article>
         </main>
-        <p className='mt-12 md:mt-16 underline decoration-green-400 hover:decoration-purple-600 hover:decoration-4'><a href='https://github.com/ravoluzen'>Github</a></p>
+        <p className='mt-12 md:mt-16 underline decoration-green-400 hover:decoration-purple-600 hover:decoration-4'><a href='https://github.com/ravoluzen' target='_blank.'>Github</a></p>
     </motion.div>
   )
 }
