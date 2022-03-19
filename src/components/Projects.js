@@ -45,11 +45,8 @@ const Projects = () => {
             <article>
                 <img src={hd} alt='project thumbnail' className='object-cover'></img>
                 <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Header-Dhillon</h3>
-                <p className='text-sm mb-4'>NodeJS app that dynamically updates my twitter header with random lyrics from AP Dhillon's discography using API Dhillon, every 60 seconds.</p>
-                <span>
-                <a href='https://header-dhillon.vercel.app' target='_blank.' className='mt-12 underline decoration-green-400'>live site</a>
-                <a href='https://github.com/ravoluzen/header-dhillon' target='_blank.' className='m-12 underline decoration-green-400'>source code</a>
-                </span>
+                <p className='text-sm mb-4'>NodeJS app that dynamically updates my twitter header with random lyrics from AP Dhillon's discography using API Dhillon, every 60 seconds.</p>        
+                <a href='https://github.com/ravoluzen/header-dhillon' target='_blank.' className='m-12 ml-0 underline decoration-green-400'>source code</a>
             </article>
         </main>
         <p className='mt-12 md:mt-16 underline decoration-green-400 hover:decoration-purple-600 hover:decoration-4'><a href='https://github.com/ravoluzen'>Github</a></p>
