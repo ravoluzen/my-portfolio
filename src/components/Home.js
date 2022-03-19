@@ -34,7 +34,7 @@ const Home = () => {
             <a href='https://twitter.com/ravoluzen' target='_blank.' className='text-center text-3xl md:text-4xl transition-colors ease-in hover:bg-purple-600 rounded'>
                 <Twitter/>
             </a>
-            <a href='https://github.com/ravoluzen' target='_blank.' className='text-center text-3xl md:text-4xl transition-colors ease-in hover:bg-purple-600 rounded'>
+            <a href='https://www.linkedin.com/in/raj-shankar-tiwary-053b86189/' target='_blank.' className='text-center text-3xl md:text-4xl transition-colors ease-in hover:bg-purple-600 rounded'>
                 <Linkedin className='object-cover'/>
             </a>
         </section>
