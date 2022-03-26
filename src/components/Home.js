@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithubSquare as Github, FaTwitterSquare as Twitter, FaLinkedin as Linkedin } from 'react-icons/fa'
+import { FaGithubSquare as Github, FaTwitterSquare as Twitter, FaLinkedin as Linkedin, FaYoutubeSquare as Youtube } from 'react-icons/fa'
 import {motion} from 'framer-motion'
 import dp from '../images/dp.jpg'
 
@@ -36,6 +36,9 @@ const Home = () => {
             </a>
             <a href='https://www.linkedin.com/in/raj-shankar-tiwary-053b86189/' target='_blank.' className='text-center text-3xl md:text-4xl transition-colors ease-in hover:bg-purple-600 rounded'>
                 <Linkedin className='object-cover'/>
+            </a>
+            <a href='https://www.youtube.com/channel/UC2WORMry3AFSGRqB9pV6g2A' target='_blank.' className='text-center text-3xl md:text-4xl transition-colors ease-in hover:bg-purple-600 rounded'>
+                <Youtube className='object-cover'/>
             </a>
         </section>
     </motion.div>
