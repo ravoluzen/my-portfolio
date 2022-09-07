@@ -20,10 +20,9 @@ const Home = () => {
             <article>
 
                 <h1 className='text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
-                <h3 className='font-normal underline decoration-purple-600 decoration-4 md:text-xl'>Frontend Developer(Currently interning at RakSul)</h3>
-                <p className='text-sm md:text-base'>(Who also produces music and writes content)</p>
+                <h3 className='font-normal underline decoration-purple-600 decoration-4 md:text-xl'>Frontend Developer(Interning at RakSul)</h3>
                 <br></br>
-                <p className='text-sm md:text-base'>I'm currently learning and working with ReactJS, NextJS, Material UI and TypeScript.</p>
+                <p className='text-sm md:text-base'>Learning and working with ReactJS, NextJS, Material UI and TypeScript.</p>
             
             </article>
         </section>
