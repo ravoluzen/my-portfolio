@@ -14,7 +14,8 @@ const About = () => {
             </p>
             <br></br>
             <p className='text-sm'>
-                I love to learn new stuff and get an high off of creating, whether it's frontend projects, music or a written piece.
+                I love to learn and create, whether it's frontend projects, music, rap, prose or poetry.
+                Oh also, I'm a huge fan of EDM, Rock and Hip-Hop music!
             </p>
             <br></br>
             <p className='text-sm'>
