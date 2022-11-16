@@ -18,7 +18,7 @@ const About = () => {
             </p>
             <br></br>
             <p className='text-sm'>
-                I'm a CSE undergrad in my final year and I'm looking for <span className='underline decoration-purple-600 decoration-4'>frontend internships</span> where I can contribute and learn, and also join as a full timer if given a chance to create an even bigger impact.
+                I'm a CSE undergrad('22) and I'm looking for <span className='underline decoration-purple-600 decoration-4'>full time frontend developer roles.</span>
             </p>
             <br></br>
             <p className='text-sm'>Hit me up on <a href='https://twitter.com/ravoluzen' target='_blank.' className='underline decoration-green-500 decoration-2 hover:decoration-purple-600'>Twitter</a> or <a href='https://www.linkedin.com/in/raj-shankar-tiwary-053b86189/' target='_blank.' className='underline decoration-green-500 decoration-2 hover:decoration-purple-600'>Linkedin</a>.</p>
