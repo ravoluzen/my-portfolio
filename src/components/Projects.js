@@ -41,7 +41,7 @@ const Projects = () => {
                 <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Movierata</h3>
                 <p className='text-sm mb-4'>Web app that uses OMDB API to display movies and shows along with a lot of info like plot, ratings, awards, etc. Also lets the user search movies and shows and view anyone of them in detail.</p>
                 <span>
-                    <a href='https://movierata.vercel.app/' target='_blank.' className='mt-12 underline decoration-green-400'>live site</a>
+                    <a href='https://movierata-h1hb0yphk-ravoluzen.vercel.app/' target='_blank.' className='mt-12 underline decoration-green-400'>live site</a>
                     <a href='https://github.com/ravoluzen/movierata' target='_blank.' className='m-12 underline decoration-green-400'>source code</a>
                 </span>
             </article>
