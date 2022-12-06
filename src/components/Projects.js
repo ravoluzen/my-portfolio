@@ -23,7 +23,7 @@ const Projects = () => {
         <main className='w-full grid grid-cols-1 gap-10 items-start md:grid-cols-2 lg:grid-cols-4'>
             <article>
                 <img src={lawyours} alt='project thumbnail' className='object-cover'></img>
-                <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Musix</h3>
+                <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Lawyours</h3>
                 <p className='text-sm mb-4'>A full-stack platform for clients and lawyers to post queries, discuss with and discover each other. Seek Counsel. Show Interest. Secure lives.</p>
                 <span>
                     <a href='https://lawyours-ravoluzen.vercel.app/' target='_blank.' className='mt-12 underline decoration-green-400'>live site</a>
