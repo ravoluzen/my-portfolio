@@ -8,7 +8,7 @@ import candid from '../images/candid.png'
 import movierata from '../images/movierata.png'
 import musix from '../images/musix.png'
 import lawyours from '../images/lawyours.png'
-import bod from '../images/bod.png
+import bod from '../images/bod.png'
 
 
 const Projects = () => {
