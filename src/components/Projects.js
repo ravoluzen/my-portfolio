@@ -92,7 +92,7 @@ const Projects = () => {
             </article>
             <article>
                 <img src={bod} alt='project thumbnail' className='object-cover'></img>
-                <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Musix</h3>
+                <h3 className='font-bold underline decoration-purple-600 decoration-4 mb-2'>Bonk-A-Dino!</h3>
                 <p className='text-sm mb-4'>A Jurassic spin on the classic whack-a-mole! Bonk a dino in two levels: Noob and Pro</p>
                 <span>
                     <a href='https://ravoluzen.github.io/Bonk-A-Dino/' target='_blank.' className='mt-12 underline decoration-green-400'>live site</a>
