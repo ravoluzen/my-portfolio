@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaGithubSquare as Github, FaTwitterSquare as Twitter, FaLinkedin as Linkedin, FaYoutubeSquare as Youtube } from 'react-icons/fa'
 import {motion} from 'framer-motion'
-import dp from '../images/dp.jpg'
 
 const Home = () => {
   return (
@@ -14,7 +13,7 @@ const Home = () => {
         className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center'>
 
             <picture>
-                <img src={dp} alt='my profile' className='mb-4 w-32 h-32 rounded-full object-cover md:h-48 md:w-48 md:mb-0'></img>
+                <img src="/images/dp.jpg" alt='my profile' className='mb-4 w-32 h-32 rounded-full object-cover md:h-48 md:w-48 md:mb-0'></img>
             </picture>
 
             <article>
