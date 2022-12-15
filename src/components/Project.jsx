@@ -5,7 +5,7 @@ const Project = ({ image, title, description, site, github }) => {
   
   return (
     <div>
-        <article className='border-2 shadow-md shadow-slate-800 border-purple-800 rounded-md p-4 h-96 flex flex-col justify-between'>
+        <article className='border-2 shadow-md shadow-slate-800 border-purple-600 rounded-md p-4 h-96 flex flex-col justify-between'>
             <div>
                 <div className='border-2 border-gray-400 mb-4 rounded-md h-36 object-fill'>
                     <img src={image} alt='project thumbnail' className='object-cover h-full w-full'></img>
