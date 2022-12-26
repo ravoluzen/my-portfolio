@@ -1,5 +1,12 @@
 [
     {
+        "image":"/images/pm.png",
+        "title":"PitchMe",
+        "description":"Instantly generate quality referral pitches and cover letters using AI in only 3 steps! Edit with an in-built editor and login to save for future use.",
+        "site":"https://pitchme.vercel.app/",
+        "github":"https://github.com/ravoluzen/pitchme"
+    },
+    {
         "image":"/images/lawyours.png",
         "title":"Lawyours",
         "description":"A full-stack platform for clients and lawyers to post queries, discuss with and discover each other. Seek Counsel. Show Interest. Secure lives.",
