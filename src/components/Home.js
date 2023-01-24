@@ -10,7 +10,7 @@ const Home = () => {
     animate={{ opacity: 1 }}
     transition={{ delay: 0.2 }}>
         <section 
-        className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center'>
+        className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center md:w-[60%]'>
 
             <picture>
                 <img src="/images/dp.jpg" alt='my profile' className='mb-4 w-32 h-32 rounded-full object-cover md:h-48 md:w-48 md:mb-0'></img>
@@ -19,9 +19,11 @@ const Home = () => {
             <article>
 
                 <h1 className='text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
-                <h3 className='font-normal underline decoration-purple-600 decoration-4 md:text-xl'>
+                <h3 className='font-normal  md:text-xl'>
                   Frontend Developer
-                  (Ex-Intern RakSul)</h3>
+                  (Currently, <a className="underline decoration-purple-600 decoration-4" href='https://workhack.io target="_blank' rel="noreferrer">WorkHack</a>)
+                  <br />
+                  (Ex-Intern <a className="underline decoration-purple-600 decoration-4" href='https://raksul.in' target="_blank" rel="noreferrer">RakSul</a>)</h3>
                 <br></br>
                 <p className='text-sm md:text-base'>
                   Learning and working with ReactJS, NextJS, 
