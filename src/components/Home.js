@@ -18,17 +18,19 @@ const Home = () => {
 
             <article>
 
-                <h1 className='text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
+                <h1 className='mb-2 text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
                 <h3 className='font-normal  md:text-xl'>
                   FullStack Developer
-                  (Currently, <a className="underline decoration-purple-600 decoration-4" href='https://dripverse.org' target="_blank' rel="noreferrer">Dripverse Protocol</a>)
-                  <br />
-                  (Ex <p className="underline decoration-purple-600 decoration-4">WorkHack, RakSul)</h3>
+                  <br></br>
+                  Currently, 
+                    <a className="underline decoration-purple-600 decoration-4" href="https://dripverse.org" target="_blank" rel="noreferrer"> Dripverse Protocol</a>
+                </h3>
+                <p>(Ex: WorkHack, RakSul)</p>
                 <br></br>
                 <p className='text-sm md:text-base'>
                   Working with NextJS, TypeScript and TailwindCSS.
                   <br />
-                  Learning Backend development and Blockchain technologies, and diving into Web3 infra & tooling.
+                  Diving into Backend and Web3.
                 </p>
             
             </article>
