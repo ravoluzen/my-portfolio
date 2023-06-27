@@ -20,14 +20,16 @@ const Home = () => {
 
                 <h1 className='text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
                 <h3 className='font-normal  md:text-xl'>
-                  Frontend Developer
-                  (Currently, <a className="underline decoration-purple-600 decoration-4" href='https://workhack.io target="_blank' rel="noreferrer">WorkHack</a>)
+                  FullStack Developer
+                  (Currently, <a className="underline decoration-purple-600 decoration-4" href='https://dripverse.org' target="_blank' rel="noreferrer">Dripverse Protocol</a>)
                   <br />
-                  (Ex-Intern <a className="underline decoration-purple-600 decoration-4" href='https://raksul.in' target="_blank" rel="noreferrer">RakSul</a>)</h3>
+                  (Ex <p className="underline decoration-purple-600 decoration-4">WorkHack, RakSul)</h3>
                 <br></br>
                 <p className='text-sm md:text-base'>
-                  Learning and working with ReactJS, NextJS, 
-                  Material UI and TypeScript.</p>
+                  Working with NextJS, TypeScript and TailwindCSS.
+                  <br />
+                  Learning Backend development and Blockchain technologies, and diving into Web3 infra & tooling.
+                </p>
             
             </article>
         </section>
