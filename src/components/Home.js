@@ -11,7 +11,6 @@ const Home = () => {
     transition={{ delay: 0.2 }}>
         <section 
         className='grid grid-cols-1 items-start md:grid-cols-2 md:items-center md:w-[60%]'>
-
             <picture>
                 <img src="/images/dp.jpg" alt='my profile' className='mb-4 w-32 h-32 rounded-full object-cover md:h-48 md:w-48 md:mb-0'></img>
             </picture>
@@ -27,9 +26,7 @@ const Home = () => {
                 <p>(Ex: WorkHack, RakSul)</p>
                 <br></br>
                 <p className='text-sm md:text-base'>
-                  Working with NextJS, TypeScript and TailwindCSS.
-                  <br />
-                  Diving into Backend and Web3.
+                  Building with NextJS, TypeScript and TailwindCSS ⚡️
                 </p>
             
             </article>
