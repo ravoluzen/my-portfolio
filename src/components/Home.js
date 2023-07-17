@@ -20,10 +20,9 @@ const Home = () => {
 
                 <h1 className='mb-2 text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
                 <h3 className='font-normal  md:text-xl'>
-                  FullStack Developer
+                  Frontend Developer
                   <br></br>
-                  Currently, 
-                    <a className="underline decoration-purple-600 decoration-4" href="https://dripverse.org" target="_blank" rel="noreferrer"> Dripverse Protocol</a>
+                  Currently looking for new roles.
                 </h3>
                 <p>(Ex: WorkHack, RakSul)</p>
                 <br></br>
