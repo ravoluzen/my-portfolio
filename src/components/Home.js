@@ -19,9 +19,7 @@ const Home = () => {
 
                 <h1 className='mb-2 text-xl font-bold font-sans md:text-4xl'>Raj Shankar Tiwary</h1>
                 <h3 className='font-normal  md:text-xl'>
-                  Frontend Developer
-                  <br></br>
-                  Currently looking for new roles.
+                  Frontend Developer at <a className="underline decoration-2 decoration-purple-600" href="https://zivy.app" target="_blank">Zivy</a>
                 </h3>
                 <p>(Ex: WorkHack, RakSul)</p>
                 <br></br>
