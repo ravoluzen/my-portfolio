@@ -10,7 +10,7 @@
     "debug": "DEBUG=Eleventy* eleventy"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
