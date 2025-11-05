@@ -3,7 +3,6 @@ import path from 'path';
 import cssnano from 'cssnano';
 import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
-import { inject } from "@vercel/analytics"
 
 export default function (eleventyConfig) {
 
