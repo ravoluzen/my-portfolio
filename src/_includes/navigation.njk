@@ -1,0 +1,62 @@
+<nav class="fixed left-0 top-0 h-screen w-48 bg-white/15 backdrop-blur flex flex-col justify-center pl-8 hidden lg:flex z-50">
+  <ul class="flex flex-col space-y-6 items-start">
+    <li>
+      <a href="/"
+         class="text-softBlack {% if page.url == '/' %} underline italic underline-offset-2 {% endif %}">
+        home
+      </a>
+    </li>
+    <li>
+      <a href="/about/" 
+         class="text-softBlack {% if page.url == '/about/' %} underline italic underline-offset-2 {% endif %}">
+        about
+      </a>
+    </li>
+    <li>
+      <a href="/music/" 
+         class="text-softBlack {% if page.url == '/music/' %} underline italic underline-offset-2 {% endif %}">
+        music
+      </a>
+    </li>
+    <li>
+      <a href="/craft/" 
+         class="text-softBlack {% if page.url == '/craft/' %} underline italic underline-offset-2 {% endif %}">
+        craft
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Mobile nav bar -->
+<nav class="fixed top-0 left-0 w-full bg-white/15 backdrop-blur lg:hidden z-50">
+  <div class="px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center h-16">
+      <ul class="flex space-x-6 items-center">
+        <li>
+          <a href="/"
+             class="text-softBlack text-sm {% if page.url == '/' %} underline italic underline-offset-2 {% endif %}">
+            home
+          </a>
+        </li>
+        <li>
+          <a href="/about/" 
+             class="text-softBlack text-sm {% if page.url == '/about/' %} underline italic underline-offset-2 {% endif %}">
+            about
+          </a>
+        </li>
+        <li>
+          <a href="/music/" 
+             class="text-softBlack text-sm {% if page.url == '/music/' %} underline italic underline-offset-2 {% endif %}">
+            music
+          </a>
+        </li>
+        <li>
+          <a href="/craft/" 
+             class="text-softBlack text-sm {% if page.url == '/craft/' %} underline italic underline-offset-2 {% endif %}">
+            craft
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

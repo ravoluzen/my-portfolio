@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    color: #131313;
+}
+
+/* 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #131313;
+    color: white;
+  }
+} */
