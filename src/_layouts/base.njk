@@ -6,6 +6,8 @@
   <title>{{ title }} | My Portfolio</title>
   <meta name="description" content="{{ description or 'My personal portfolio' }}" />
   <link rel="stylesheet" href="/css/style.css" />
+  <!-- Vercel Analytics -->
+  <script defer src="/_vercel/insights/script.js" data-test="analytics"></script>
 </head>
 <body class="min-h-screen flex flex-col items-center lg:ml-48">
   {% include "navigation.njk" %}

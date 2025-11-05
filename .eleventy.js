@@ -3,16 +3,8 @@ import path from 'path';
 import cssnano from 'cssnano';
 import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
-import { inject } from "@vercel/analytics"
 
 export default function (eleventyConfig) {
-  // Inject Vercel Analytics
-  eleventyConfig.addTransform('injectAnalytics', (content, outputPath) => {
-    if (outputPath.endsWith('.html')) {
-      return inject(content);
-    }
-    return content;
-  });
 
   // Passthrough copy for assets
   eleventyConfig.addPassthroughCopy("src/assets");
