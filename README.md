@@ -1,43 +1,9 @@
-# My Portfolio
-
-A modern, fast, and elegant personal portfolio built with **11ty v3** and **Tailwind CSS v4**.
-
-## Features
-
-- ⚡ **Static Site Generation** - Blazing fast with 11ty
-- 🎨 **Beautiful UI** - Styled with Tailwind CSS v4
-- 🎵 **Music Section** - Dedicated page for music projects
-- 🖼️ **Collections** - Showcase all your projects
-- 🌙 **Dark Mode** - Built-in dark mode support
-- 📱 **Fully Responsive** - Mobile-first design
-- 🚀 **Zero Dependencies** - Minimal and clean setup
-
-## Pages
-
-- **Home** - Landing page with featured projects
-- **About** - About you and your skills
-- **Music** - Music projects and collaborations
-- **Collections** - All your projects in one place
-
-## Custom Color Palette
-
-This portfolio uses a curated color theme:
-
-- **Just Black**: `#131313`
-- **Light Lavender**: `#E6E6FA`
-- **Lilac**: `#C8A2C8`
-- **Periwinkle**: `#CCCCFF`
-- **Light Gray**: `#F2F2F2`
-- **Dark Purple**: `#5D4777`
-- **Soft Black**: `#333333`
-- **Soft Sage**: `#D1E2C4`
-- **Pale Silver**: `#E8E8E8`
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18.x or higher
+- Node.js 22.x or higher
 - npm
 
 ### Installation
@@ -128,6 +94,27 @@ Use Tailwind CSS utility classes in your templates. The custom colors are availa
 - [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
 - [PostCSS](https://postcss.org/) - CSS transformation
 - [Nunjucks](https://mozilla.github.io/nunjucks/) - Templating engine
+
+## Deployment
+### Vercel
+
+The project includes a `vercel.json` configuration that automatically tells Vercel to use `_site` as the output directory.
+
+1. Push your repository to GitHub
+2. Connect your repo to [Vercel](https://vercel.com)
+3. Vercel will automatically detect the configuration and deploy
+
+No additional configuration needed!
+
+### Other Hosting Options
+
+Since this is a static site, you can deploy the `_site` directory to:
+- **Netlify** - Connect your GitHub repo directly
+- **GitHub Pages** - Push to `gh-pages` branch
+- **AWS S3 + CloudFront**
+- **Any static hosting service**
+
+Simply build the project with `npm run build` and upload the `_site` folder.
 
 ## License
 
